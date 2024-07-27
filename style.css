@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Stringbean";
+    src: url("Bean-Regular.ttf");
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+
+    background-image: url("background.webp");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 100%;
+    height: 80%;
+
+    font-size: 25pt;
+    font-family: "Stringbean", "Lucida Sans", monospace;
+    color: black;
+
+    padding: 10px;
+    border: 1px solid rgba(184, 184, 184, 0.5);
+    border-radius: 25px;
+    background: transparent;
+
+    backdrop-filter: blur(15px);
+    outline: none;
+    resize: none;
+}
+
+.tray {
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border-radius: 10000px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(184, 184, 184, 0.5);
+
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.logo {
+    height: 100px;
+}
+
+#tumblr-icon {
+    background-image: url("https://assets.tumblr.com/images/logo_page/1x/android-black.png?_v=0d6673ab69061145c77ad170cc9292e7");
+    background-position: 50% 50%;
+    background-size: 120px;
+}
+
+#download-link {
+    width: 150px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 10000px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(184, 184, 184, 0.5);
+
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+
+    cursor: pointer;
+}
