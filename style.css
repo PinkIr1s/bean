@@ -39,7 +39,8 @@ textarea {
 
 .tray {
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    /* justify-content: space-between; */
 }
 
 .item {
@@ -63,4 +64,20 @@ textarea {
     background-image: url("https://assets.tumblr.com/images/logo_page/1x/android-black.png?_v=0d6673ab69061145c77ad170cc9292e7");
     background-position: 50% 50%;
     background-size: 120px;
+}
+
+#download-link {
+    width: 150px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 10000px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(184, 184, 184, 0.5);
+
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+
+    cursor: pointer;
 }
